@@ -1,15 +1,17 @@
 <template>
   <div class="flex flex-col h-screen justify-between">
-    <header class="h-10 bg-red-500">Header</header>
-    <main class="mb-auto h-10 bg-green-500">Content</main>
+    <Header></Header>
+    <main class="mb-auto h-10"></main>
     <Footer></Footer>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
+import Header from "~/components/Header.vue";
 
 export default Vue.extend({
-  name: 'IndexPage'
-})
+    name: "IndexPage",
+    components: { Header }
+});
 </script>

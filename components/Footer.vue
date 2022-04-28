@@ -31,7 +31,7 @@
             </svg>
         </a>
         </div>
-        <p class="mt-2 text-center text-base text-gray-400">&copy; bilalthepunjabi</p>
+        <p class="mt-2 text-center text-base text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">&copy; bilalthepunjabi</p>
     </div>
     </footer>
 </template>
